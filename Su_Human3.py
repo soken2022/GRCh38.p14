@@ -3,11 +3,11 @@
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-import openpyxl
+#import openpyxl
 import gzip
 from Bio import SeqIO
 #from memory_profiler import profile
-
+# hi everyone here is genomics pc
 # input information
 input_organism_name = 'GRCh38.p14'
 input_element_name = ['LINE','SINE','LTR','DNA'] #study genomic elements
@@ -15,7 +15,7 @@ input_element_name_for_saving = '_'.join(input_element_name)
 input_start_chromosome_number = 1
 input_end_chromosome_number = 24
 input_number_of_chromosomes = input_end_chromosome_number - input_start_chromosome_number + 1
-input_chromosomes_name = [22]#['1','2','3','4','5','6','7','8','9' ,'10', '11', '12', '13', '14', '15', '16','17', '18', '19', '20', '21', '22']
+input_chromosomes_name = [21]#['1','2','3','4','5','6','7','8','9' ,'10', '11', '12', '13', '14', '15', '16','17', '18', '19', '20', '21', '22']
 input_plot_len = 8000
 annotation_file_path_out_UCSC = r'D:\PhD\genomes\GRCh38.p14\UCSC\hg38.p14.fa.out.gz'
 fasta_path_refseq = r'D:\PhD\genomes\GRCh38.p14\ncbi_dataset\data\GCF_000001405.40\GCF_000001405.40_GRCh38.p14_genomic.fna'
